@@ -2,17 +2,10 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>IRIS Ordu | İris Fotoğrafçılığı & Görsel Ürünler</title>
+  <title>IRIS Ordu | İris Fotoğrafçılığı</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 🔍 SEO Meta Etiketleri -->
-  <meta name="description" content="Ordu'da iris fotoğrafçılığı, düğün & ürün çekimi, emlak tanıtım videoları ve özel tasarım cam tablolar, kolyeler, bileklikler. IRIS Ordu ile gözünüzden sanata.">
-  <meta name="keywords" content="Ordu iris fotoğrafçılığı, iris çekimi, cam tablo, kolye, düğün çekimi, ürün fotoğrafı, emlak videosu, tanıtım filmi, reels, IRIS Ordu">
-  <meta name="author" content="IRIS Ordu">
-
-  <!-- ✅ Favicon -->
+  <meta name="description" content="Ordu'da iris fotoğrafçılığı, özel çekimler ve kişiye özel tasarımlar.">
   <link rel="icon" type="image/png" href="favicon.png">
-
   <style>
     * {
       box-sizing: border-box;
@@ -45,13 +38,68 @@
       margin-bottom: 20px;
     }
 
-    .info {
+    .info, .address {
       font-size: 17px;
       margin: 10px 0;
       line-height: 1.6;
     }
 
-    a {
-      color: #ffe27a;
+    .buttons {
+      margin: 20px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .buttons a {
+      background-color: #ffe27a;
+      color: #000;
+      padding: 12px;
+      border-radius: 8px;
       text-decoration: none;
-      font-weight: 500;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .buttons a:hover {
+      background-color: #ffd43b;
+    }
+
+    .social {
+      font-size: 18px;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 22px;
+      }
+
+      .info {
+        font-size: 16px;
+      }
+
+      .buttons a {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Web Sitemiz Şu An Yapım Aşamasındadır</h1>
+    <div class="social">@irisordu</div>
+    <div class="buttons">
+      <a href="tel:+905054801150">📞 Bizi Ara</a>
+      <a href="https://maps.app.goo.gl/9t3BM1x8nkqXTaRK9" target="_blank">🗺️ Yol Tarifi Al</a>
+      <a href="https://wa.me/905054801150" target="_blank">💬 WhatsApp</a>
+    </div>
+    <div class="address">
+      Yeni Mah. Zübeyde Hanım Cad.<br>
+      Yeni Çarşı Ticaret Merkezi Sitesi No:195 Kat:1 İç Kapı No:120<br>
+      Altınordu / ORDU
+    </div>
+  </div>
+</body>
+</html>
